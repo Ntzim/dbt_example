@@ -1,0 +1,51 @@
+[0m22:36:12.002036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB1366960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB1217590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB12171D0>]}
+
+
+============================== 22:36:12.006037 | 4506eb9f-cf84-4dee-bfc2-2b0c795726c2 ==============================
+[0m22:36:12.006037 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:36:12.006037 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt', 'log_path': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:12.019368 [info ] [MainThread]: dbt version: 1.9.3
+[0m22:36:12.019368 [info ] [MainThread]: python version: 3.12.9
+[0m22:36:12.020875 [info ] [MainThread]: python path: C:\Users\Administrador\Documents\dbt + airflow\airflow-dbt-demo\venv\Scripts\python.exe
+[0m22:36:12.020875 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:36:12.032390 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m22:36:12.033388 [debug] [MainThread]: Command `dbt debug` failed at 22:36:12.033388 after 0.11 seconds
+[0m22:36:12.034392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB1366960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEAF8AAC60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CEB17169C0>]}
+[0m22:36:12.034392 [debug] [MainThread]: Flushing usage events
+[0m22:36:12.611031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:43:35.092540 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD7C521E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD7F5DFFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD811E1F40>]}
+
+
+============================== 22:43:35.092540 | d7ce58d3-0423-4a29-8513-b56c06fae734 ==============================
+[0m22:43:35.092540 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:43:35.092540 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt\\logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:35.116102 [info ] [MainThread]: dbt version: 1.9.3
+[0m22:43:35.116102 [info ] [MainThread]: python version: 3.12.9
+[0m22:43:35.117165 [info ] [MainThread]: python path: C:\Users\Administrador\Documents\dbt + airflow\airflow-dbt-demo\venv\Scripts\python.exe
+[0m22:43:35.117587 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:43:35.121728 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m22:43:35.123346 [debug] [MainThread]: Command `dbt debug` failed at 22:43:35.122728 after 0.12 seconds
+[0m22:43:35.123346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD7C521E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD7F376120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD8167F590>]}
+[0m22:43:35.123346 [debug] [MainThread]: Flushing usage events
+[0m22:43:35.967166 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:43:44.604762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014173205A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001416FE1FAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001416FD40F80>]}
+
+
+============================== 22:43:44.608763 | 9c7b8645-a49e-4f83-9eba-87f6db4023d5 ==============================
+[0m22:43:44.608763 [info ] [MainThread]: Running with dbt=1.9.3
+[0m22:43:44.608763 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Administrador\\Documents\\dbt + airflow\\airflow-dbt-demo\\dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:43:44.621765 [info ] [MainThread]: dbt version: 1.9.3
+[0m22:43:44.622764 [info ] [MainThread]: python version: 3.12.9
+[0m22:43:44.622764 [info ] [MainThread]: python path: C:\Users\Administrador\Documents\dbt + airflow\airflow-dbt-demo\venv\Scripts\python.exe
+[0m22:43:44.622764 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:43:44.627764 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m22:43:44.627764 [debug] [MainThread]: Command `dbt debug` failed at 22:43:44.627764 after 0.10 seconds
+[0m22:43:44.628761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014173205A60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000141730FF050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014173D73C80>]}
+[0m22:43:44.628761 [debug] [MainThread]: Flushing usage events
+[0m22:43:45.227423 [debug] [MainThread]: An error was encountered while trying to flush usage events
